@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=FiraCode&display=swap');
+
 :root{
     --primary-color: #EF4444;
     --secondary-color: #6EE7B7;
@@ -9,6 +11,7 @@ body{
     background-size: 100% 100%;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Fira Code', sans-serif;
 }
 
 .grid{
