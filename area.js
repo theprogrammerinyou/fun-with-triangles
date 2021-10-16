@@ -10,7 +10,6 @@ const inputInOption3 = document.querySelectorAll(".inputInOption3");
 const errorDiv= document.querySelector(".error");
 
 const radios = document.forms[0].elements;
-console.log(radios);
 
 radios[0].addEventListener('change', ()=>{
     showOrHideBlock(areaCalBlock, 0, 1, 2);
